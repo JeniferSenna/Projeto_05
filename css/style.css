@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
+/******* HEADER *******/
+
+header .container{
+    padding: 25px 2%;
+    background-color: #120314;
+    height: 130px;
+}
+.logo{
+    float: left;
+    padding: 8px 2%;
+    
+}
+
+.logo img{
+    width: 150px;
+    height: 70px;
+}
+
+nav.menu-desktop{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+nav.menu-desktop ul{
+    list-style-type: none;
+}
+
+nav.menu-desktop ul li{
+    float: left;
+    padding: 0 30px;
+    font-size: 23px;
+}
+
+nav.menu-desktop ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-mobile{
+    display: none;
+    float: right;
+}
+
+/***/
+
+/***** SECTION BANNER *****/
+
+section.banner{
+    width: 100%;
+    height: calc(100vh - 130px);
+    min-height: 600px;
+    background-color: white;
+    background-image: url('../images/xbox.png');
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+
+/**** ENTRANDO NO RESPONSIVO ****/
+
+@media screen and (max-width: 798px){
+    header .container{
+        height: auto;
+        text-align: center;
+    }
+
+    .logo{
+        float: none;
+        display: inline-block; 
+    }
+
+    nav.menu-desktop{
+        float: none;
+        display: inline-block;
+        padding: 8px 2% 15px 2%;
+    }
+}
