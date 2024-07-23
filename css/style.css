@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Zain;
 }
 
 html,body{
@@ -49,7 +50,7 @@ nav.menu-desktop ul{
 nav.menu-desktop ul li{
     float: left;
     padding: 0 30px;
-    font-size: 23px;
+    font-size: 28px;
 }
 
 nav.menu-desktop ul li a{
