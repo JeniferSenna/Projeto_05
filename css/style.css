@@ -21,7 +21,7 @@ html,body{
 
 /******* HEADER *******/
 
-header .container{
+header{
     padding: 25px 2%;
     background-color: #120314;
     height: 130px;
@@ -60,7 +60,21 @@ nav.menu-desktop ul li a{
 
 .menu-mobile{
     display: none;
-    float: right;
+}
+
+nav.menu-mobile ul{
+    list-style-type: none;
+}
+
+nav.menu-mobile ul li{
+    float: left;
+    padding: 0 30px;
+    font-size: 28px;
+}
+
+nav.menu-mobile ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 /***/
@@ -78,10 +92,53 @@ section.banner{
     background-repeat: no-repeat;
 }
 
+.text-banner{
+    padding: 70px;
+}
+
+.text-bn-single{
+    width: 314px;
+    font-style: italic;
+    margin-top: 30px;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 40px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-banner .text-bn-single:nth-of-type(1){
+    background-image: url('../images/box-texto-blue.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.text-banner .text-bn-single:nth-of-type(2){
+    background-image: url('../images/box-texto-blue.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 220px;
+}
+
+.text-banner .text-bn-single:nth-of-type(3){
+    background-image: url('../images/box-text-blue-inv.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 220px;
+}
+
+.text-banner .text-bn-single:nth-of-type(4){
+    background-image: url('../images/box-texto-black.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
 
 /**** ENTRANDO NO RESPONSIVO ****/
 
-@media screen and (max-width: 798px){
+@media screen and (max-width: 768px){
     header .container{
         height: auto;
         text-align: center;
@@ -93,8 +150,24 @@ section.banner{
     }
 
     nav.menu-desktop{
-        float: none;
-        display: inline-block;
-        padding: 8px 2% 15px 2%;
+        display: none;
+    }
+
+    section.banner{
+        background-size: cover;
+        background-position: 100px center;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    .text-banner{
+        padding: 30px;
+    }
+
+    .text-bn-single{
+        width: 240px;
+        font-size: 20px;
     }
 }
