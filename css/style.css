@@ -59,17 +59,31 @@ nav.menu-desktop ul li a{
 }
 
 .menu-mobile{
+    margin-top: 20px;
+    float: right;
+    width: 38px;
+    height: 38px;
+    background-image: url('../images/icon-menu.png');
+    background-size: 100% 100%;
+    cursor: pointer;
     display: none;
 }
 
 nav.menu-mobile ul{
-    list-style-type: none;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-bottom: 4px solid #1E90FF;
+    z-index: 999;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.6);
 }
 
 nav.menu-mobile ul li{
-    float: left;
-    padding: 0 30px;
     font-size: 28px;
+    padding: 20px 0;
 }
 
 nav.menu-mobile ul li a{
@@ -83,8 +97,7 @@ nav.menu-mobile ul li a{
 
 section.banner{
     width: 100%;
-    height: calc(100vh - 130px);
-    min-height: 600px;
+    height: 650px;
     background-color: white;
     background-image: url('../images/xbox.png');
     background-size: contain;
@@ -93,7 +106,7 @@ section.banner{
 }
 
 .text-banner{
-    padding: 70px;
+    padding: 55px;
 }
 
 .text-bn-single{
@@ -135,22 +148,52 @@ section.banner{
     font-size: 20px;
 }
 
+/*** DESTAQUES ***/
+
+.destaques{
+    padding: 90px 2%;
+    background-color: #ccc;
+}
+
+.line-titulo{
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.line{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 20px;
+    background-color: black;
+}
+
+.destaques h2{
+    position: relative;
+    background-color: #ccc;
+    display: inline-block;
+    text-align: center;
+    font-size: 27px;
+    padding: 0 20px;
+    text-transform: uppercase;
+
+}
 
 /**** ENTRANDO NO RESPONSIVO ****/
 
 @media screen and (max-width: 768px){
     header .container{
         height: auto;
-        text-align: center;
-    }
-
-    .logo{
-        float: none;
-        display: inline-block; 
     }
 
     nav.menu-desktop{
         display: none;
+    }
+
+    nav.menu-mobile{
+        display: block;
     }
 
     section.banner{
