@@ -324,6 +324,16 @@ section.banner{
     .half1 a{
         margin-left: 0;
         margin-top: 15px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .nome-depoimento{
+        float: left;
+        width: 100%;
+        margin: 20px;
     }
 }
 
@@ -344,6 +354,21 @@ section.banner{
         background-size: cover;
         background-position: 100px center;
         height: 80vh;
+    }
+
+    .departamentos{
+        flex-direction: column;
+    }
+
+    .half1, .half2{
+        padding: 80px 2%;
+        width: 100%;
+    }
+
+    .nome-depoimento{
+        float: right;
+        width: auto;
+        margin: 0;
     }
 }
 
@@ -374,6 +399,7 @@ section.banner{
     .vitrine a{
         display: inline-block;
     }
+
 }
 
 @media screen and (max-width: 500px){
