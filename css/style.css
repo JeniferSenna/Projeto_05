@@ -19,6 +19,18 @@ html,body{
     margin: 0 auto;
 }
 
+.btn1{
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    background-color: #0FC5EF;
+    text-decoration: none;
+    border-bottom: 4px solid #1E90FF;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+}
+
 /******* HEADER *******/
 
 header{
@@ -96,6 +108,7 @@ nav.menu-mobile ul li a{
 /***** SECTION BANNER *****/
 
 section.banner{
+    overflow: hidden;
     width: 100%;
     height: 650px;
     background-color: white;
@@ -189,7 +202,8 @@ section.banner{
     width: 100%;
     padding-top: 100%;
     border: 8px solid #ccc;
-    background-size: 100% 100%;
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
 }
 
 .vitrine h2{
@@ -209,20 +223,109 @@ section.banner{
 .vitrine a{
     margin-left: 8px;
     margin-top: 10px;
-    color: white;
-    font-size: 18px;
-    width: 150px;
-    text-align: center;
-    display: block;
-    line-height: 40px;
-    background-color: #0FC5EF;
-    text-decoration: none;
-    border: 4px solid #1E90FF;
-
 }
 
+/**** DEPARTAMENTOS ****/
+
+.departamentos{
+    display: flex;
+}
+
+.half1{
+    width: 50%;
+    text-align: right;
+    padding: 90px 0;
+    background-color: #120314;
+    color: white;
+}
+
+.half1-wraper{
+    padding-right: 20%;
+    text-align: left;
+    display: inline-block;
+}
+
+.half1-wraper h2{
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.half1-wraper ul{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.half1-wraper li{
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.half1-wraper a{
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.half2{
+    width: 50%;
+    padding: 90px;
+    background-color: #0FC5EF;
+    color: white;
+}
+
+.half2 h2{
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.half2 .depoimento{
+    margin-top: 18px
+}
+
+.depoimento p{
+    font-size: 24px;
+    font-style: italic;
+}
+
+.navigation{
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 25px;    
+}
+
+.arrows{
+    float: left;
+}
+
+.navigation .arrows img{
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.nome-depoimento{
+    float: right;
+    font-size: 28px;
+    font-style: italic;
+}
 
 /**** ENTRANDO NO RESPONSIVO ****/
+
+@media screen and (max-width: 1100px){
+    .half1{
+        text-align: center;
+    }
+
+    .half1-wraper{
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .half1 a{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
 
 @media screen and (max-width: 768px){
     header .container{
