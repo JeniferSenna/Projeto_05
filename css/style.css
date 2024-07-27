@@ -168,8 +168,12 @@ section.banner{
     background-color: #ccc;
 }
 
+.destaques .container{
+    padding: 40px 0;
+}
+
 .line-titulo{
-    max-width: 800px;
+    max-width: 1376px;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -394,6 +398,119 @@ footer p{
     float: right;
     color: white;
     font-size: 24px;
+}
+
+/**** SECTION VENDA ****/
+
+.venda{
+    padding: 30px 2%;
+    min-height: 90%;
+}
+
+.venda .line-titulo h2{
+    background-color: white;
+}
+
+.content-venda{
+    margin-top: 30px;
+}
+
+.sidebar{
+    float: left;
+    width: 30%;
+}
+
+.search1{
+    width: 300px;
+}
+
+.search1 h2{
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+}
+
+.search1 .barra-preco{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.barra-pc-fill{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #D3D3D3;
+}
+
+.pointer-barra{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: calc(30% - 13px);
+    top: -3px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #A9A9A9;
+    border: 1px solid black;
+}
+
+.valor-pesquisa{
+    margin-top: 8px;
+}
+
+.valor-pesquisa p{
+    color: black;
+    font-size: 18px;
+}
+
+.valor-pesquisa p:nth-of-type(1){
+    float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2){
+    float: right;
+}
+
+.search2{
+    margin-top: 40px;
+}
+
+.search2 h2{
+    font-size: 24px;
+    color: black;
+    font-weight: normal;
+}
+
+.form-venda-wraper{
+    margin-top: 8px;
+}
+
+.form-venda-wraper input[type=checkbox]{
+    display: none;
+}
+
+.form-venda-wraper label{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.form-venda-wraper span{
+    padding: 0 10px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /**** ENTRANDO NO RESPONSIVO ****/
