@@ -183,7 +183,7 @@ section.banner{
     background-color: black;
 }
 
-.destaques .line-titulo h2{
+.line-titulo h2{
     position: relative;
     background-color: #ccc;
     display: inline-block;
@@ -309,6 +309,89 @@ section.banner{
     font-style: italic;
 }
 
+/**** CONTATO ****/
+
+.contato{
+    padding: 80px 2%;
+}
+
+.contato form{
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.contato .input{
+    float: left;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.contato input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.contaro textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 120px;
+    padding: 8px;
+    resize: none;
+}
+
+.contato form .input:nth-last-of-type(5){
+    text-align: center;
+}
+
+.contato input[type=submit]{
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+footer{
+    padding: 0%;
+    background-color: #120314;
+}
+
+footer nav{
+    float: left;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li{
+    float: left;
+    padding: 0 30px;
+    font-size: 28px;
+}
+
+footer nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    float: right;
+    color: white;
+    font-size: 24px;
+}
+
 /**** ENTRANDO NO RESPONSIVO ****/
 
 @media screen and (max-width: 1100px){
@@ -369,6 +452,22 @@ section.banner{
         float: right;
         width: auto;
         margin: 0;
+    }
+
+    .w50{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer p{
+        float: none;
+    }
+
+    footer nav{
+        display: none;
     }
 }
 
