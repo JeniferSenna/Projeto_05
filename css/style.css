@@ -103,7 +103,7 @@ nav.menu-mobile ul li a{
     color: white;
 }
 
-/***/
+/** fim header **/
 
 /***** SECTION BANNER *****/
 
@@ -160,6 +160,8 @@ section.banner{
     background-repeat: no-repeat;
     font-size: 20px;
 }
+/** fim banner **/
+
 
 /*** DESTAQUES ***/
 
@@ -228,6 +230,8 @@ section.banner{
     margin-left: 8px;
     margin-top: 10px;
 }
+
+/** fim destaques **/
 
 /**** DEPARTAMENTOS ****/
 
@@ -312,6 +316,7 @@ section.banner{
     font-size: 28px;
     font-style: italic;
 }
+/** fim departamentos **/
 
 /**** CONTATO ****/
 
@@ -369,6 +374,10 @@ section.banner{
 .w50{
     width: 50%;
 }
+/** fim contato **/
+
+
+/*** FOOTER **/
 
 footer{
     padding: 40px 4%;
@@ -399,8 +408,9 @@ footer p{
     color: white;
     font-size: 24px;
 }
+/** fim footer **/
 
-/**** SECTION VENDA ****/
+/**** SECTION VENDA - pagina venda ****/
 
 .venda{
     padding: 30px 2%;
@@ -537,6 +547,80 @@ footer p{
 .vitrine-venda .vitrine{
     margin-top: 18px;
 }
+/** fim section venda **/
+
+/*** SECTION VENDA-SINGLE - pagina vndsingle ***/
+.venda-single{
+    padding: 0 2%;
+}
+
+.venda-single .container{
+    padding: 40px 0;
+    max-width: 1000px;
+}
+
+.info-produto{
+    float: left;
+    width: 60%;
+}
+
+.foto-destaque{
+    background-color: red;
+    width: 100%;
+    padding-top: 70%;
+    /** para quando for por a imagem já estar pronto!!
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    **/
+}
+
+.descricao-produto{
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+
+.descricao-produto h2{
+    margin-top: 20px;
+    max-width: 360px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.descricao-produto p{
+    margin-top: 20px;
+    max-width: 360px;
+    font-size: 20px;
+}
+
+.descricao-produto a{
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.nav-galeria{
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.nav-galeria-wraper{
+    width: 200%;
+}
+
+.mini-img{
+    float: left;
+    border: 5px solid white;
+    padding-top: calc(33.3% * (100 / 200) * 0.6);
+    width: calc(33.3% * (100 / 200));
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+}
+
+/** fim venda-single **/
 
 /**** ENTRANDO NO RESPONSIVO ****/
 
