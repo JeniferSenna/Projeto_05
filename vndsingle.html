@@ -21,18 +21,18 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a style="color: #0FC5EF;" href="">Venda</a></li>
-                    <li><a href="">Sobre</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a style="color: #0FC5EF;" href="venda.html">Venda</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav><!--menu-desktop-->
 
             <nav class="menu-mobile">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a style="color: #0FC5EF;" href="">Venda</a></li>
-                    <li><a href="">Sobre</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a style="color: #0FC5EF;" href="venda.html">Venda</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav><!--menu-mobile-->
@@ -42,46 +42,120 @@
     </header>
 
     <section class="venda-sinlge">
+
+        <!-- 
+        <div class="line-titulo">
+            <div class="line"></div>
+            <h2>PC Gamer</h2>
+        </div>
+        -->
         <div class="container">
             <div class="info-produto">
-                <div style="background-image: url();" class="foto-destaque"></div>
+                <div style="background-image: url('images/pc-gaming.jpg');" class="foto-destaque"></div>
                 <div class="nav-galeria">
                     <div class="nav-galeria-wraper">
-                        <div style="background-image: url();" class="mini-img"></div>
-                        <div style="background-image: url();" class="mini-img"></div>
-                        <div style="background-image: url();" class="mini-img"></div>
-                        <div style="background-image: url();" class="mini-img"></div>
-                        <div style="background-image: url();" class="mini-img"></div>
-                        <div style="background-image: url();" class="mini-img"></div>
-                        <div style="background-image: url();" class="mini-img"></div>
-                        <div style="background-image: url();" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
+                        <div style="background-image: url('images/pc-gaming.jpg');" class="mini-img"></div>
                     </div><!--nav-galeria-wraper-->
                 </div><!--nav-galeria-->
             </div><!--info-produto-->
 
             <div class="descricao-produto">
-                <h2>Produto</h2>
-                <p>Valor</p>
-                <p>Descrição</p>
+                <h2>R$4.799,99</h2>
+                <p>AMD Ryzen 5 4600G, 8GB, SSD 240GB, Fonte 500W, Monitor 19", Teclado, Mouse, Headset e Mousepad</p>
                 <a class="btn1" href="">Entre em contato</a>
             </div><!--descricao-produto-->
             
             <div class="clear"></div>
 
         </div><!--container-->
-    </section><!--venda-single-->        
+    </section><!--venda-single-->      
+    
+    <section class="contato">
+        <div class="line-titulo">
+            <div class="line"></div>
+            <h2>Contato</h2>
+        </div><!-- line-titulo -->
+
+        <form>
+            <div class="input w100">
+                <input type="text" placeholder="Nome" required>
+            </div><!-- input w100 -->
+
+            <div class="input w50">
+                <input type="text" placeholder="E-mail" required>
+            </div><!-- input w50 -->
+
+            <div class="input w50">
+                <input type="text" placeholder="Telefone" required>
+            </div><!-- input w50 -->
+
+            <div class="input w100">
+                <textarea placeholder="Mensagem" required></textarea>
+            </div><!-- input w100-->
+
+            <div class="input w100">
+                <input class="btn1" type="submit" value="Enviar">
+            </div><!-- input w100-->
+        </form>
+
+    </section><!-- contato -->
+
+    <section class="destaques">
+        <div class="line-titulo">
+            <div class="line"></div>    
+                <h2>Produtos em Destaque</h2>
+        </div><!--line-titulo-->
+
+        <div class="container">
+            <div class="vitrine">
+                <div style="background-image:url('images/ps5.jpg');" class="produto-img"></div>
+                <div class="info-produto">
+                    <h2>Console Play Station 5</h2>
+                    <p>Bundle Marvel's Spider-Man 2 - Versão com leitor</p>
+                    <a class="btn1" href="">Mais Detalhes</a>
+                </div><!--info-produto-->
+                </div><!--vitrine-->
+
+            <div class="vitrine">
+                <div style="background-image: url('images/nint-switch.jpg');" class="produto-img"></div>
+                <div class="info-produto">
+                    <h2>Console Nintendo Switch</h2>
+                    <p>OLED - Azul e Vermelho Neon</p>
+                    <a class="btn1" href="">Mais Detalhes</a>
+                </div><!--info-produto-->
+            </div><!--vitrine-->
+
+            <div class="vitrine">
+                <div style="background-image: url('images/pc-gaming.jpg');" class="produto-img"></div>
+                <div class="info-produto">
+                    <h2>PC Gamer Completo</h2>
+                    <p>AMD Ryzen 5 4600G, 8GB, SSD 240GB, Fonte 500W</p>
+                    <a class="btn1" href="">Mais Detalhes</a>
+                </div><!--info-produto-->
+            </div><!--vitrine-->
+
+            <div class="clear"></div>
+        </div><!--container-->
+    </section><!--destaques-->
 
     <footer>
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a style="color: #0FC5EF;" href="">Venda</a></li>
-                    <li><a href="">Sobre</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a style="color: #0FC5EF;" href="venda.html">Venda</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>
-
+            
             <p>Todos os direitos reservados</p>
 
             <div class="clear"></div>
