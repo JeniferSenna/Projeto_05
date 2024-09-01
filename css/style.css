@@ -421,6 +421,10 @@ footer p{
     background-color: white;
 }
 
+.vitrine-venda .vitrine .produto-img{
+    border: 8px solid white;
+}
+
 .content-venda{
     margin-top: 30px;
 }
@@ -547,6 +551,7 @@ footer p{
 .vitrine-venda .vitrine{
     margin-top: 18px;
 }
+
 /** fim section venda **/
 
 /*** SECTION VENDA-SINGLE - pagina vndsingle ***/
@@ -618,6 +623,65 @@ footer p{
 
 /** fim venda-single **/
 
+/***** INICIANDO SECTION SOBRE - PÁGINA SOBRE *****/
+
+.sobre{
+    min-height: 90%;
+    padding: 60px 2% 20px 2%;
+}
+
+.sobre .container{
+    max-width: 840px;
+    margin-top: 20px;
+}
+
+.sobre .line-titulo h2{
+    background-color: white;
+}
+
+.sobre .img-destaque-sobre{
+    width: 100%;
+    padding-top: 60%;
+    background-color: #D3D3D3;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sobre .descricao-autor{
+    margin-top: 20px;
+}
+
+.descricao-autor h2{
+    font-size: 24px;
+}
+
+.descricao-autor p{
+    line-height: 28px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.descricao-autor2{
+    margin-top: 35px;
+}
+
+.img-small{
+    width: 30%;
+    height: 120px;
+    padding-top: 25px;
+    float: left;
+    background-color: #D3D3D3;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.descricao-autor2 p{
+    float: left;
+    width: 70%;
+    line-height: 28px;
+    padding: 15px;
+}
+
 /**** ENTRANDO NO RESPONSIVO ****/
 
 @media screen and (max-width: 1100px){
@@ -630,7 +694,7 @@ footer p{
         padding-right: 0;
     }
 
-    .half1 a{
+    .half1-wraper a{
         margin-left: 0;
         margin-top: 15px;
         margin-left: 0;
